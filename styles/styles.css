@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 60px;
+  text-align: center; /* center the board on the page */
+}
+
+div {
+  margin: 0;
+  padding: 0;
+}
+
+.board {
+  display: inline-block; /* expands board to contain rows */
+  margin: 0 auto;
+}
+
+.cell {
+  display: inline-block;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+}
